@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/ClionProject/Vector/exceptions.hpp
+cstddef
+-
+cstring
+-
+string
+-
+
+/mnt/d/ClionProject/Vector/main.cpp
+vector.hpp
+/mnt/d/ClionProject/Vector/vector.hpp
+iostream
+-
+iomanip
+-
+vector
+-
+
+/mnt/d/ClionProject/Vector/vector.hpp
+exceptions.hpp
+/mnt/d/ClionProject/Vector/exceptions.hpp
+climits
+-
+cstddef
+-
+
